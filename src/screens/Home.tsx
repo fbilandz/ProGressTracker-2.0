@@ -7,9 +7,10 @@ import { RingLoader } from 'react-spinners'
 import { DoughnutChart } from '../components'
 import { addLogs } from '../redux/actions'
 import constants from '../utils/constants'
+import { UserInterface } from '../types/UserInterface'
 
 interface Props {
-  user: any,
+  user: UserInterface,
   logs?: any
 }
 
